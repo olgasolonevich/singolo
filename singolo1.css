@@ -7,9 +7,7 @@ p {
     text-align: left;
 }
 .header {
-    max-width: 1200px;
-    border-width: 3px;
-    border-style: solid;
+    max-width: 1020px;
     margin: 0 auto;
     background-color: #2D303A;
     height: 92px;
