@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
 }
-.brand h1{
+.brand h1 {
     font-size: 24px;
 }
 span {
@@ -32,7 +32,6 @@ span {
     width: 400px;
     margin: 5 0 0 373px;
 }
-
 .menu li {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
@@ -45,7 +44,6 @@ span {
     list-style-type: none;
   
 }
-
 .menu li:not(.home):before {   
     font-size: 15px;
     content:'·';
@@ -53,16 +51,14 @@ span {
     padding-right: 12px;
     color: #4a4d63;
 }
-
 li span {
     color:#ffffff;
 }
-
 .menu li.home {
     list-style-type: none;
     margin-top: 2px;
 }
-span:hover{
+span:hover {
     cursor: pointer;
     color:#F06C64;
 }
@@ -79,12 +75,38 @@ span:hover{
     height: 600px;
     background-color: #f06c64;
 }
- img {
+.chev {
     position: absolute;
     left: 207px;
     top: 376px;
 }
-.chev {
+.chevr {
+    position: absolute;
     transform: rotateY(180deg);
     left: 1129px;
+    top: 376px;
+}
+.phone1 {
+    position: absolute;
+    left: 277px;
+    top: 148px;
+    z-index: 1;
+}
+.phone2 {
+    position: absolute;
+    left: 590px;
+    top: 269px;
+    z-index: 1;
+}
+.shadow1 {
+    position: absolute;
+    left: 277px;
+    top: 148px;
+    z-index: 0;
+}
+.shadow2 {
+    position: absolute;
+    left: 165px;
+    top: 0px;
+    z-index: 0;
 }
