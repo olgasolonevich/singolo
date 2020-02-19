@@ -44,6 +44,7 @@ span {
     list-style-type: none;
   
 }
+
 .menu li:not(.home):before {   
     font-size: 15px;
     content:'·';
@@ -54,14 +55,15 @@ span {
 li span {
     color:#ffffff;
 }
-.menu li.home {
-    list-style-type: none;
-    margin-top: 2px;
-}
 span:hover {
     cursor: pointer;
     color:#F06C64;
 }
+.menu li.home {
+    list-style-type: none;
+    margin-top: 2px;
+}
+
 .line {
     position: absolute;
     width: 1020px;
@@ -106,7 +108,14 @@ span:hover {
 }
 .shadow2 {
     position: absolute;
-    left: 165px;
-    top: 0px;
+    left: 590px;
+    top: 269px;
     z-index: 0;
+}
+.line2 {
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+    top: 689px;
 }
