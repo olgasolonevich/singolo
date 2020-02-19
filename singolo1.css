@@ -71,3 +71,9 @@ span:hover{
     top: 88px;
     background: #323746;
 }
+.slider{
+    margin: 0 auto;
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+}
