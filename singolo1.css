@@ -1,12 +1,14 @@
 body {
-    margin: 0px;
+    margin: 0 auto;
+    max-width: 1020px;
+    min-width: 600px;
 }
 header {
     display: flex;
-    width: 1020px;
     margin: 0 auto;
     background-color: #2D303A;
     height: 89px;
+    min-width: 600px;
 }
 .brand {
     width: 155.41px;
@@ -46,7 +48,7 @@ span {
 
 .menu li:not(.home):before {   
     font-size: 15px;
-    content: "·";
+    content:'·';
     margin-left: 5px;
     padding-right: 12px;
     color: #4a4d63;
@@ -71,9 +73,18 @@ span:hover{
     top: 88px;
     background: #323746;
 }
-.slider{
+.slider {
     margin: 0 auto;
     width: 1020px;
     height: 600px;
     background-color: #f06c64;
+}
+ img {
+    position: absolute;
+    left: 207px;
+    top: 376px;
+}
+.chev {
+    transform: rotateY(180deg);
+    left: 1129px;
 }
