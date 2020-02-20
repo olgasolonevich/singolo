@@ -47,7 +47,7 @@ span {
 
 .menu li:not(.home):before {   
     font-size: 15px;
-    content:'·';
+    content:"·";
     margin-left: 5px;
     padding-right: 12px;
     color: #4a4d63;
@@ -88,6 +88,10 @@ span:hover {
     left: 1129px;
     top: 376px;
 }
+.chev:hover, .chevr:hover {
+    cursor: pointer;
+    filter: opacity(50%)
+}
 .phone1 {
     position: absolute;
     left: 277px;
@@ -108,7 +112,7 @@ span:hover {
 }
 .shadow2 {
     position: absolute;
-    left: 590px;
+    left: 591px;
     top: 269px;
     z-index: 0;
 }
@@ -118,4 +122,76 @@ span:hover {
     height: 6px;
     background-color: #ea676b;
     top: 689px;
+}
+.services {
+    position: absolute;
+    width: 1020px;
+    height: 505px;
+    background-color:#f2f2f2;
+    top: 695px;
+}
+.ourservices {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left; 
+    margin: 68 0 0 42px;
+}
+.text {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato", sans-serif;
+    text-align: left;
+    margin: 26 0 0 42px;
+}
+.containers {
+    margin-left: 25px;
+    margin-top: 33px;
+    width: 956px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container {
+    width: 301px;
+    height: 85px;
+    margin-left: 16px;
+    
+    margin-bottom: 38px;
+    font-family: 'Lato', sans-serif;
+    color:#666d89;
+    
+}
+.icon img {
+    float: left;
+    margin-right: 21px;
+    margin-top: 18px;
+}
+.head {
+ 
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    margin-top: 14px;
+    letter-spacing: 0.1px;
+    line-height: 22px;
+    text-align: left;
+}
+.description {
+    overflow: hidden;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 22px;
+}
+.line3 {
+    width: 1020px;
+    height: 7px;
+    background-color: #ffffff;
+    margin-top: 46px;
 }
