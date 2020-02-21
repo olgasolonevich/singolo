@@ -9,6 +9,7 @@ header {
     background-color: #2D303A;
     height: 89px;
     min-width: 600px;
+    line-height: 6px;
 }
 .brand {
     width: 155.41px;
