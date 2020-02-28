@@ -95,6 +95,12 @@ button {
     width: 220px;
     height: 187px;
     background-color: #464b5e;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-right: 10px;
+}
+.line {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+    margin-top: 47px;
 }
