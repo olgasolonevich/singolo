@@ -78,3 +78,7 @@ button {
     background-color: #2d303a;
     float: left;
 }
+.all:hover, .graphic:hover, .web:hover, .artwork:hover{
+    color: white;
+    cursor: pointer
+}
