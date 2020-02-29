@@ -15,8 +15,8 @@ h1 {
     font-weight: 900;
     text-align: left;
     padding-top: 60px;
-    padding-left: 40px;
-    letter-spacing: -0.2px;
+    margin-left: 40px;
+    letter-spacing: -0.1px;
 }
 .text {
     font-size: 18px;
@@ -26,7 +26,8 @@ h1 {
     text-align: left;
     padding-left: 40px;
     margin-bottom: 12px;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.3px;
+    word-spacing: 0.5px;
 }
 
 button {
@@ -121,6 +122,7 @@ button {
     padding-left: 40px;
 }
 .description {
+    width: 940px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -129,10 +131,10 @@ button {
     padding-left: 40px;
     margin-bottom: 12px;
     letter-spacing: -0.2px;
-    word-spacing: 1px;
+    text-align: justify;
 }
 .people {
-    width: 960px;
+    width: 959px;
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: 300px;
@@ -140,7 +142,9 @@ button {
     margin-top: 45px;
     margin-left: 40px;
 }
-
+.photo3 {
+    margin-left: 1px;
+}
 h6 {
     font-size: 18px;
     line-height: 18px;
@@ -154,12 +158,34 @@ h6 {
 }
 .info {
     width: 300px;
-    height: 175px;
+    height: 40px;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 21px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
     margin-top: 10px;
+    text-align: justify;
+}
+.networks {
+    margin-top: 26px;
+    margin-left: 1px;
+}
+.networkss {
+    margin-left: 1px;
+    margin-top: 26px;
+}
+.network {
+    margin-right: 4px;
+}
+.line2 {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    margin-top: 210px;
+}
+.network:hover {
+    cursor: pointer;
+    filter: opacity(50%)
 }
