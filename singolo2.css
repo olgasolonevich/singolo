@@ -74,6 +74,7 @@ button {
     border-radius: 5px;
     border: 1px solid ;
     margin-left: 10px;
+    margin-bottom: 19px;
     color: #767e9e;
     background-color: #2d303a;
     float: left;
@@ -83,24 +84,82 @@ button {
     cursor: pointer
 }
 .gallery {
-    margin-top: 53px;
+    width: 940px;
     margin-left: 40px;
-    width: 950;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 5px;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    height: 601px; 
+    gap: 20px; 
+    overflow: hidden; 
 }
 .background {
     width: 220px;
     height: 187px;
     background-color: #464b5e;
-    margin-bottom: 20px;
-    margin-right: 10px;
 }
 .line {
     width: 1020px;
     height: 6px;
     background-color: #323746;
-    margin-top: 47px;
+    margin-top: 67px;
+}
+.about {
+    width: 1020px;
+    height: 728px;
+    background-color: #f2f2f2;
+}
+.header {
+    font-size: 30px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin: 0px;
+    letter-spacing: -0.1px;
+    padding-top: 59px;
+    padding-left: 40px;
+}
+.description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    letter-spacing: -0.2px;
+    word-spacing: 1px;
+}
+.people {
+    width: 960px;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 300px;
+    height: 300px; 
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-top: 17px;
+    margin-bottom: 0px;
+    letter-spacing: -0.2px;
+}
+.info {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
 }
