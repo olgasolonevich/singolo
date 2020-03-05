@@ -6,7 +6,7 @@ body {
 .forma {
     display: flex;
     flex-direction: row;
-   
+    
 }
 .background {
     width: 1020px;
@@ -113,4 +113,60 @@ textarea::placeholder  {
     cursor: pointer;
     filter: opacity(85%)
 }
-
+.contact {
+    
+    margin-left: 10px;
+    margin-top: 8px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.contact_text {
+    width: 300px;
+    height: 85px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0px;
+    text-align: justify;
+    letter-spacing: -0.2px;
+}
+.inform {
+    margin-top: 38px;
+}
+img {
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.line7 {
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+}
+.footer {
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+}
+.copyright {
+    margin-top: 33px;
+    margin-left: 42px;
+}
+.networkss {
+    float: right;
+    margin-right: 36px;
+    margin-top: 22px;
+}
+.network {
+    margin-right: 4px;
+}
