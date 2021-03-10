@@ -77,44 +77,52 @@ span:hover {
     width: 1020px;
     height: 600px;
     background-color: #f06c64;
+    display: flex;
+    flex-direction: row;
 }
 .chev {
-    position: absolute;
-    left: 207px;
-    top: 376px;
+    width: 16px;
+    height: 27px;
+    margin-top: 300px;
+    margin-left: 20px;
 }
 .chevr {
-    position: absolute;
+    width: 16px;
+    height: 27px;
+    margin-top: 300px;
+    margin-left: 45px;
     transform: rotateY(180deg);
-    left: 1129px;
-    top: 376px;
 }
 .chev:hover, .chevr:hover {
     cursor: pointer;
     filter: opacity(50%)
 }
 .phone1 {
-    position: absolute;
-    left: 277px;
-    top: 148px;
+    width: 215px;
+    height: 458px;
+    margin-top: 35px;
+    margin-left: 100px;
     z-index: 1;
 }
 .phone2 {
-    position: absolute;
-    left: 590px;
-    top: 269px;
+    width: 458px;
+    height: 215px;
+    margin-top: 235px;
+    margin-left: 70px;
     z-index: 1;
 }
 .shadow1 {
-    position: absolute;
-    left: 277px;
-    top: 148px;
+    margin-top: 35px;
+    margin-left: -213px;
+    width: 240px;
+    height: 483px;
     z-index: 0;
 }
 .shadow2 {
-    position: absolute;
-    left: 591px;
-    top: 269px;
+    width: 483px;
+    height: 240px;
+    margin-top: 235px;
+    margin-left: -454px;
     z-index: 0;
 }
 .line2 {
