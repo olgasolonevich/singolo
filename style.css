@@ -401,7 +401,7 @@ h6 {
 }
 .network:hover {
     cursor: pointer;
-    filter: opacity(50%)
+    filter: opacity(50%);
 }
 
 
@@ -614,4 +614,7 @@ img {
 }
 .network1 {
     margin-right: 4px;
+}
+.network:hover {
+filter: opacity(50%);
 }
