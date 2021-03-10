@@ -615,6 +615,6 @@ img {
 .network1 {
     margin-right: 4px;
 }
-.network:hover {
+.network1:hover {
 filter: opacity(50%);
 }
